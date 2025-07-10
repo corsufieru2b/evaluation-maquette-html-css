@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Probeats - Commande</title>
+  <link href="https://fonts.googleapis.com/css?family=Barlow:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <img src="assets/probeats-logo.png" alt="Probeats Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="produit.html">Produits</a></li>
+          <li><a href="a-propos.html">A propos</a></li>
+          <li><a href="assistance.html">Assistance</a></li>
+          <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Panier</a></li>
+          <li><a href="#"><i class="fa-solid fa-user"></i> Connexion</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container order-section">
+      <h1>Récapitulatif de la commande</h1>
+      <div class="order-summary">
+        <div>
+          <h2>Produit</h2>
+          <p>Casque Audio Probeats</p>
+          <p>Quantité : 1</p>
+        </div>
+        <div>
+          <h2>Prix</h2>
+          <p>149,99 €</p>
+        </div>
+      </div>
+      <form class="order-form">
+        <h2>Informations de livraison</h2>
+        <input type="text" placeholder="Nom complet" required>
+        <input type="text" placeholder="Adresse" required>
+        <input type="text" placeholder="Ville" required>
+        <input type="text" placeholder="Code postal" required>
+        <input type="email" placeholder="Email" required>
+        <h2>Paiement</h2>
+        <input type="text" placeholder="Numéro de carte" required>
+        <input type="text" placeholder="Date d'expiration" required>
+        <input type="text" placeholder="Cryptogramme" required>
+        <button type="submit">Valider la commande</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="produit.html">Produits</a>
+        <a href="a-propos.html">A propos</a>
+        <a href="assistance.html">Assistance</a>
+        <a href="commande.html">Commande</a>
+        <a href="#">Mentions légales</a>
+      </div>
+      <div class="footer-contact">
+        <p>Contact : contact@probeats.com</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
